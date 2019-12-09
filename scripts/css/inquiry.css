@@ -1,0 +1,336 @@
+@charset "utf-8";
+
+
+
+
+
+/* ---------- inquiry ---------- */
+
+#inquiry_phone ul {
+	overflow:hidden;
+	padding:0 0 20px;
+}
+
+#inquiry_phone li {
+	border:#eee 1px solid;
+	box-sizing:border-box;
+	float:left;
+	padding:20px 25px 25px;
+	text-align:center;
+	width:48%;
+}
+
+#inquiry_phone li span {
+	font-size:0.9em;
+}
+
+#inquiry_phone li .tel em {
+	color:#E3007E;
+	cursor:default;
+	font-size:2.4em;
+	padding:0;
+}
+
+#inquiry_phone li .fax {
+	border-top:#eee 1px solid;
+	font-size:1.2em;
+	padding:15px 0 0;
+}
+
+#inquiry_phone li:nth-child(2) {
+	align-items:center;
+	display:flex;
+	float:right;
+	justify-content:center;
+	padding:25px 25px 10px;
+}
+
+#inquiry_phone li:nth-child(2) a {
+	color:#003F98;
+	font-size:1.5em;
+}
+
+#inquiry_faq ul {
+	font-size:0.92em;
+	line-height:1.4;
+	overflow:hidden;
+}
+
+#inquiry_faq ul li {
+	float:left;
+	padding:0 2% 2% 0;
+	width:32%;
+}
+
+#inquiry_faq ul li:nth-child(3n) {
+	padding:0 0 2%;
+}
+
+#inquiry_faq ul li a {
+	background:#eee;
+	border-radius:5px;
+	display:block;
+	padding:8px 0;
+	text-decoration:none;
+	text-align:center;
+}
+
+@media screen and (max-width:768px) {
+
+	#inquiry_phone ul {
+		padding:0;
+	}
+
+	#inquiry_phone li {
+		margin:0 0 20px;
+		padding:10px 0 15px;
+		width:100%;
+	}
+
+	#inquiry_phone li .tel em {
+		font-size:2.3em;
+	}
+
+	#inquiry_phone li .fax {
+		border-top:#eee 1px solid;
+		font-size:1.2em;
+		margin:0 10px;
+		padding:10px 0 0;
+	}
+
+	#inquiry_phone li:nth-child(2) {
+		padding:15px 0 0;
+	}
+
+	#inquiry_phone li:nth-child(2) a {
+		font-size:1.2em;
+	}
+
+	#inquiry_faq ul {
+		font-size:0.85em;
+		padding:0 0 15px;
+	}
+
+	#inquiry_faq ul li {
+		padding:0 0 5px!important;
+		width:100%;
+	}
+
+}
+
+
+
+
+
+/* ---------- inquiry_form ---------- */
+
+#inquiry_form em {
+	font-weight:bold;
+}
+
+#inquiry_form_contract {
+	background:#FAFAFA;
+	border:1px solid #ddd;
+	margin:20px 0 35px;
+	padding:25px 25px 10px;
+	height:250px;
+	overflow-y:auto;
+}
+
+#inquiry_form .button {
+	font-size:1em;
+	line-height:1;
+	text-align:center;
+}
+
+#inquiry_form .button li {
+	display:inline-block;
+	padding:0 10px 15px;
+}
+
+#inquiry_form .button a,
+#inquiry_form .button button {
+	border-radius:5px;
+	color:#fff;
+	display:inline-block;
+	font-size:1.1em;
+	font-weight:500;
+	padding:15px 0;
+	text-decoration:none;
+	width:200px;
+}
+
+#inquiry_form .button .next {
+	background:#FF9A1B;
+}
+
+#inquiry_form .button .prev {
+	background:#aaa;
+	width:100px;
+}
+
+#inquiry_form table {
+	border-collapse:separate;
+	border-spacing:0 10px;
+	margin:10px 0 30px;
+	width:100%;
+}
+
+#inquiry_form th {
+	background:#fafafa;
+	border:#ddd 1px solid;
+	border-right:none;
+	font-size:0.92em;
+	font-weight:bold;
+	line-height:1.8em;
+	padding:20px;
+	text-align:left;
+	vertical-align:middle;
+	width:200px;
+}
+
+#inquiry_form td {
+	border:#ddd 1px solid;
+	border-left:none;
+	padding:20px 20px 5px;
+}
+
+#inquiry_form .error td {
+	background:#FFF0F6;
+}
+
+#inquiry_form td br {
+	display:none;
+}
+
+#inquiry_form_input .memo p {
+	line-height:1;
+}
+
+#inquiry_form input[type="text"],
+#inquiry_form textarea {
+	box-sizing:border-box;
+	border:#ddd 1px solid;
+	font-family:"Noto Sans Japanese", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-size:1.5em;
+	padding:8px;
+	width:450px;
+}
+
+#inquiry_form input[name="zip1"],
+#inquiry_form input[name="zip2"],
+#inquiry_form input[name="tel1"],
+#inquiry_form input[name="tel2"],
+#inquiry_form input[name="tel3"] {
+	width:100px;
+}
+
+#inquiry_form input[name="add"],
+#inquiry_form textarea {
+	width:100%;
+}
+
+@media screen and (max-width:768px) {
+
+	#inquiry_form_contract {
+		margin:10px 0 25px;
+		padding:15px 15px 0;
+	}
+
+	#inquiry_form .button li {
+		padding:0 5px 15px;
+	}
+
+	#inquiry_form .button a,
+	#inquiry_form .button button {
+		font-size:1.0em;
+		width:190px;
+	}
+
+	#inquiry_form .button .prev {
+		width:60px;
+	}
+
+	#inquiry_form table,
+	#inquiry_form tbody,
+	#inquiry_form tr,
+	#inquiry_form th,
+	#inquiry_form td {
+		box-sizing:border-box;
+		display:block;
+		width:100%!important;
+	}
+
+	#inquiry_form th {
+		border:#ddd 1px solid!important;
+		border-bottom:none!important;
+		padding:10px 15px;
+	}
+
+	#inquiry_form td {
+		border:#ddd 1px solid!important;
+		border-top:none!important;
+		border-bottom:none!important;
+		padding:15px 15px 0;
+	}
+
+	#inquiry_form_input .memo p,
+	#inquiry_form_input .add p {
+		padding:0 0 10px;
+	}
+
+	#inquiry_form tr:last-child td {
+		border-bottom:#ddd 1px solid!important;
+	}
+
+	#inquiry_form td br {
+		display:block;
+	}
+
+	#inquiry_form input[type="text"],
+	#inquiry_form textarea {
+		font-size:1.2em;
+		margin:0 0 5px;
+		padding:5px;
+		width:100%;
+	}
+
+	#inquiry_form input[name="zip1"],
+	#inquiry_form input[name="zip2"],
+	#inquiry_form input[name="tel1"],
+	#inquiry_form input[name="tel2"],
+	#inquiry_form input[name="tel3"] {
+		width:28%;
+	}
+
+}
+
+
+
+
+
+/* ---------- inquiry_form_thanks ---------- */
+
+#inquiry_form_thanks {
+	text-align:center;
+}
+
+#inquiry_form_thanks p {
+	padding:0 0 50px;
+}
+
+#inquiry_form_thanks em {
+	font-weight:bold;
+}
+
+@media screen and (max-width:768px) {
+
+	#inquiry_form_thanks {
+		text-align:left;
+	}
+
+	#inquiry_form_thanks p {
+		padding:0 0 20px;
+	}
+
+}

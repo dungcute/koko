@@ -1,0 +1,206 @@
+@charset "utf-8";
+
+/* =========================================================
+ reset関連CSSの説明
+ 
+ reset.css
+　│（@importでreset_sub.cssを読み込み）
+　│
+　└reset_sub.css
+　　　│（※上書き指定で問題あるstyle専用のリセットCSS）
+　　　│（@importでreset_main.cssを読み込み）
+　　　│
+　　　└reset_main.css
+　　　（※上書き指定で問題あるstyleのみ外したメインのリセットCSS）
+
+ ※詳細説明はReadMe（reset.css関連）.txtを参照のこと。
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+ 
+ reset_sub.cssで抜いたCSS以外のリセット用CSS全てを
+ このファイルに書き込むこと	
+========================================================= */
+
+/* reset for html 5 */
+/*
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+ aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+	margin:0;
+	padding:0;
+	border:0;
+	outline:0;
+	font-size:100%;
+	vertical-align:baseline;
+	background:transparent;
+}*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+	margin:0;
+	padding:0;
+	border:0;
+	outline:0;
+	font-size:100%;
+	-webkit-text-size-adjust: none;/* for iphone: no font resize */
+}
+
+body {
+	line-height:1;
+}
+
+aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+	display:block;
+}
+
+nav ul {
+	list-style:none;
+}
+
+img{
+	line-height:0;/*fix html5 padding bug*/
+	/* http://stackoverflow.com/questions/4904668/html5-vertical-spacing-issue-with-img */
+}
+blockquote, q {
+	quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content:'';
+	content:none;
+}
+
+a {
+	margin:0;
+	padding:0;
+	font-size:100%;
+	vertical-align:baseline;
+	background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+	background-color:#ff9;
+	color:#000;
+	text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+	background-color:#ff9;
+	color:#000; 
+	font-style:italic;
+	font-weight:bold;
+}
+
+del {
+	text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+	border-bottom:1px dotted;
+	cursor:help;
+}
+
+/*table {
+	border-collapse:collapse;
+	border-spacing:0;
+}*/
+
+/* change border colour to suit your needs */
+hr {
+	display:block;
+	height:2px;
+	border:0;   
+	border-top:2px solid #cccccc;
+	padding-top: 10px;
+}
+/*
+input, select {
+	vertical-align:middle;
+}*/
+
+/* reset before html 5 */
+/*
+=========================================
+
+Yahoo! UI Library: Reset CSS version 2.3.0
+
+=========================================
+*/
+
+
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-size:12px;
+	height: 100%;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+fieldset,img {
+	border: 0;
+}
+address,caption,cite,code,dfn,em,strong,th,var {
+	font-style: normal;
+	font-weight: normal;
+}
+ol,ul {
+	list-style: none;
+}
+caption,th {
+	text-align: left;
+}
+h2,h3,h4 {
+	font-size: 100%;
+	font-weight: bold;
+}
+h1,h5,h6 {
+	font-size: 100%;
+	font-weight: normal;
+}
+q: before,q: after {
+	content: '';
+}
+abbr,acronym {
+	border: 0;
+}
+
+li {list-style-type: none;}
+
+.nostyle li {
+	font-weight: normal !important;
+	list-style: none;
+}
+
+/*form*/
+input ,select{
+vertical-align:-1px;
+margin-right: 3px;
+margin-left: 3px;
+}

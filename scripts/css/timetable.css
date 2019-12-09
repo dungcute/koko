@@ -1,0 +1,621 @@
+@charset "utf-8";
+
+
+
+
+
+/* ---------- route_pref ---------- */
+
+#route_pref div {
+	box-sizing:border-box;
+	float:left;
+	max-width:553px;
+	padding:0 20px 0 0;
+}
+
+#route_pref div p:last-child {
+	padding:15px 0;
+}
+
+#route_pref figure {
+	float:right;
+	text-align:center;
+	padding:0 0 20px;
+	width:407px;
+}
+
+@media screen and (max-width:768px) {
+
+	#route_pref div {
+		max-width:100%;
+		padding:0;
+	}
+
+	#route_pref figure {
+		width:100%;
+	}
+
+}
+
+
+
+
+
+/* ---------- route_list ---------- */
+
+.route_list table {
+	margin:0 0 20px;
+	width:100%;
+}
+
+.route_list thead th {
+	background:#eee;
+	font-size:0.8em;
+	padding:10px 0;
+	text-align:center;
+}
+
+.route_list thead th:nth-child(3) {
+	padding:0 50px 0 0;
+}
+
+.route_list tbody tr {
+	border-bottom:#eee 1px solid;
+}
+
+.route_list tbody th {
+	box-sizing:border-box;
+	font-size:1.0em;
+	font-weight:500;
+	line-height:1.5em;
+	padding:25px 10px;
+	text-align:left;
+	vertical-align:middle;
+	width:27%;
+}
+
+.route_list td {
+	box-sizing:border-box;
+	vertical-align:middle;
+}
+
+.route_list .seat {
+	padding:20px 20px 18px 20px;
+	width:28%;
+}
+
+.route_list .seat ul {
+	font-size:0.8em;
+	line-height:1;
+	overflow:hidden;
+}
+
+.route_list .seat li {
+	border:solid 1px #666;
+	color:#666;
+	float:left;
+	margin:0 2px 2px 0;
+	padding:3px 2px;
+}
+
+.route_list .price {
+	color:#E51F8D;
+	font-weight:500;
+	text-align:center;
+	padding:0 50px 0 0;
+	width:20%;
+}
+
+.route_list .reserve {
+	padding:20px 0 5px;
+	width:24%;
+}
+
+.route_list .reserve > p {
+	padding:0 0 10px;
+}
+
+.route_list .reserve > p  a,
+.route_list .reserve ul a {
+	background:#26B9EB;
+	border-radius:20px;
+	color:#FFF;
+	display:block;
+	padding:1px 0;
+	text-align:center;
+	text-decoration:none;
+}
+
+.route_list .reserve > p a:hover {
+	background-color: #1088AF;
+}
+
+.route_list .reserve ul {
+	font-size:0.92em;
+	line-height:1.8em;
+	overflow:hidden;
+}
+
+.route_list .reserve li {
+	box-sizing:border-box;
+	float:left;
+	padding:0 5px 15px 0;
+	width:50%;
+}
+
+.route_list .reserve li:nth-child(2) {
+	padding:0 0 0 5px;
+}
+
+.route_list .reserve ul a {
+	background:#E51F8D;
+}
+
+.route_list .reserve ul a:hover {
+	background:#B1176D;
+}
+
+.route_list .reserve div p {
+	background: url(../../images/timetable/common/icon_cal.jpg) no-repeat left 5px;
+	line-height:1.4;
+	padding:0 0 10px 35px;
+}
+
+.route_list .reserve div p a {
+	color: #182884;
+}
+
+.route_list .reserve div p span {
+	font-size:0.85em;
+}
+
+@media screen and (max-width:768px) {
+
+	.route_list table,
+	.route_list tbody,
+	.route_list tr,
+	.route_list td,
+	.route_list th {
+		box-sizing:border-box;
+		display:block;
+		width:100%!important;
+	}
+
+	.route_list thead {
+		display:none;
+	}
+
+	.route_list table {
+		border:#eee 1px solid;
+		border-bottom:none;
+	}
+
+	.route_list tbody th {
+		background:#f5f5f5;
+		color:#333;
+		padding:15px;
+	}
+
+	.route_list .seat {
+		padding:20px 15px 0;
+	}
+
+	.route_list .price {
+		padding:10px 15px 0;
+	}
+
+	.route_list .price p {
+		text-align:left;
+		font-size:1em;
+	}
+
+	.route_list .price p:before {
+		color:#666;
+		content:"大人料金　";
+		font-size:0.8em;
+	}
+
+	.route_list .reserve {
+		padding:0 15px 10px;
+	}
+
+}
+
+
+
+
+
+/* ---------- timetable_article ---------- */
+
+#timetable_article {
+	box-sizing:border-box;
+	margin:0 auto;
+	max-width:1080px;
+	padding:10px 20px;
+}
+
+#timetable_article article {
+	border-top:#eee 1px solid;
+	padding:40px 0 25px;
+}
+
+#timetable_article article:first-child {
+	border-top:none;
+}
+
+@media screen and (max-width:768px) {
+
+	#timetable_article article {
+		padding:20px 0 5px;
+	}
+
+}
+
+
+
+
+
+/* ---------- timetable_outline ---------- */
+
+#timetable_outline_kochi {
+	background:url(../../images/timetable/common/bg_outline_kochi.jpg) no-repeat right 20px;
+}
+
+#timetable_outline_tokyo {
+	background:url(../../images/timetable/common/bg_outline.jpg) no-repeat right 20px;
+}
+
+#timetable_outline_nagoya {
+	background:url(../../images/timetable/common/bg_outline_nagoya.jpg) no-repeat right 20px;
+}
+
+#timetable_outline_fukuoka {
+	background:url(../../images/timetable/common/bg_outline_fukuoka.jpg) no-repeat right 20px;
+}
+
+#timetable_outline_reserve {
+	padding:0 350px 0 0;
+}
+
+.timetable_reserve ul {
+	overflow:hidden;
+	padding:10px 0 30px;
+}
+
+.timetable_reserve li {
+	font-size:1.0em;
+	font-weight:500;
+	line-height:1.4;
+	float:left;
+	width:48%;
+}
+
+.timetable_reserve li:last-child {
+	float:right;
+}
+
+.timetable_reserve li a {
+	background:url(../../images/timetable/common/icon_search.png) no-repeat 10px center;
+	background-color:#E51F8D!important;
+	border-radius:100px;
+	color:#FFF;
+	display:block;
+	padding:3px 0 3px 30px;
+	text-decoration:none;
+	text-align:center;
+}
+
+.timetable_reserve li a:hover {
+	background-color:#B1176D;
+}
+
+.timetable_reserve li a span {
+	color:#FFFF00;
+}
+
+.timetable_reserve p {
+	font-size:1.0em;
+	text-align:center;
+}
+
+.timetable_reserve p a {
+	background:#eee;
+	color: #182884;
+	display:block;
+	padding:10px 0;
+}
+
+.timetable_reserve p span {
+	font-size:0.85em;
+}
+
+@media screen and (max-width: 768px) {
+
+	#timetable_outline_kochi,
+	#timetable_outline_tokyo,
+	#timetable_outline_nagoya,
+	#timetable_outline_fukuoka {
+		background:none;
+	}
+
+	#timetable_outline_reserve {
+		padding:0;
+	}
+
+	.timetable_reserve ul {
+		padding:0 0 10px;
+	}
+
+	.timetable_reserve li {
+		font-size:1.0em;
+		padding:0 0 15px;
+		width:100%;
+	}
+
+	.timetable_reserve li a {
+		border-radius:10px;
+	}
+
+	.timetable_reserve p {
+		font-size:0.95em;
+		line-height:1.2;
+	}
+
+	.timetable_reserve p a {
+		margin:0 0 10px;
+	}
+
+}
+
+
+
+
+
+/* ---------- timetable_outline_shuttle ---------- */
+
+#timetable_outline_shuttle {
+	border:#eee 2px solid;
+	margin:20px 0;
+	padding:15px 15px 0;
+}
+
+#timetable_outline_shuttle h4 {
+	color: #CC0000;
+	font-size:1.1em;
+	font-weight:500;
+	line-height:1.5;
+	padding:0 0 5px;
+}
+
+@media screen and (max-width: 768px) {
+
+	#timetable_outline_shuttle {
+		margin:15px 0;
+		padding:15px 10px 0;
+	}
+
+	#timetable_outline_shuttle h4 {
+		font-size:0.92em;
+	}
+
+}
+
+
+
+
+
+/* ---------- timetable_price ---------- */
+
+.timetable_price {
+	font-size:0.92em;
+	line-height:1.4em;
+	margin:0 0 20px;
+	width:100%;
+}
+
+.timetable_price th {
+	background:#EEE;
+	border:solid 1px #CCC;
+	box-sizing:border-box;
+	padding:5px 0;
+}
+
+.timetable_price th br {
+	display:none;
+}
+
+.timetable_price td {
+	border:solid 1px #CCC;
+	box-sizing:border-box;
+	padding:5px 0;
+	text-align:center;
+	width:14.2%;
+}
+
+.timetable_price th.plan_a { 
+	background-color:#C8E4F2;
+}
+
+.timetable_price th.plan_b { 
+	background-color:#F5EEA9;
+}
+
+.timetable_price th.plan_c { 
+	background-color:#EECAD9;
+}
+
+.timetable_price th.plan_d { 
+	background-color:#DDECC6;
+}
+
+.timetable_price th.plan_e { 
+	background-color:#FCE4C0;
+}
+
+.timetable_price th.plan_f { 
+	background-color:#D0D3E6;
+}
+
+@media screen and (max-width:768px) {
+
+	.timetable_price {
+		font-size:0.7em;
+		margin:0 0 10px;
+	}
+
+	.timetable_price th br {
+		display:block;
+	}
+
+	.timetable_price td {
+		vertical-align:middle;
+		width:auto;
+	}
+
+}
+
+
+
+
+
+/* ---------- timetable_outline_plan ---------- */
+
+#timetable_outline_plan {
+	margin:10px 0 0;
+}
+
+#timetable_outline_plan ul {
+	overflow:hidden;
+	padding:20px 0 10px;
+}
+
+#timetable_outline_plan li {
+	float:left;
+	text-align: center;
+	width:16.666%;
+}
+
+@media screen and (max-width:768px) {
+
+	#timetable_outline_plan ul {
+		overflow:hidden;
+		padding:0 0 10px;
+	}
+
+	#timetable_outline_plan li {
+		float:left;
+		padding:4% 0 0;
+		text-align:center;
+		width:48%;
+	}
+
+	#timetable_outline_plan li:nth-child(2n) {
+		float:right;
+	}
+
+}
+
+
+
+
+
+/* ---------- timetable_schedule ---------- */
+
+#timetable_schedule {
+	max-width:1040px;
+	margin:0 auto 20px;
+	padding:0 20px;
+}
+
+#timetable_schedule_left {
+	float:left;
+	width:48%;
+}
+
+#timetable_schedule_right {
+	float:right;
+	width:48%;
+}
+
+#timetable_schedule h5 {
+	background:#C8E4F2;
+	border:1px solid #CCC;
+	border-bottom:none;
+	font-weight:500;
+	line-height:1.5em;
+	padding:5px 0;
+	text-align:center;
+}
+
+#timetable_schedule table {
+	font-size:0.85em;
+	line-height:1.6em;
+	margin:0 0 20px;
+	width:100%;
+}
+
+#timetable_schedule th {
+	border:1px solid #CCC;
+	background:#F1F1F1;
+	padding:5px;
+	text-align:center;
+	vertical-align:middle;
+}
+
+#timetable_schedule th a {
+	color:#333;
+}
+
+#timetable_schedule td {
+	border:1px solid #CCC;
+	text-align:center;
+	padding:5px;
+	vertical-align:middle;
+	width:50%;
+}
+
+.timetable_schedule_twoflights td {
+	width:25%!important;
+}
+
+#timetable_schedule p {
+	clear:both;
+}
+
+@media screen and (max-width:768px) {
+
+	#timetable_schedule {
+		margin:0 0 20px;
+	}
+
+	#timetable_schedule_left {
+		float:left;
+		width:100%;
+	}
+
+	#timetable_schedule_right {
+		float:right;
+		width:100%;
+	}
+
+}
+
+
+
+
+
+/* ---------- timetable_reserve ---------- */
+
+#timetable_reserve {
+	max-width:1040px;
+	margin:0 auto 40px;
+	padding:0 20px;
+}
+
+@media screen and (max-width:768px) {
+
+	#timetable_reserve {
+		margin:0 0 20px;
+	}
+
+}

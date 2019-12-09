@@ -1,0 +1,283 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* 共通スタイルシート読み込み
+---------------------------------------------------------------------------- */
+@import "../../css/reset.css";
+@import "../../bus/css/default.css";
+@import "../../bus/css/common.css";
+
+/*----------
+common
+----------*/
+#contain{
+	/*width:720px;*/
+
+}
+#contain720{
+	width:720px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.sec_l1{
+	margin-bottom:40px;
+}
+
+.sec_l1 p{
+	margin:0 0 15px 15px;
+	line-height:1.5;
+}
+.sec_l1 strong{
+	font-weight:bold;
+	color:#000;
+}
+.sec_l1 img{
+	vertical-align:text-bottom;
+}
+.sec_l1 ul.basic_{
+	margin:0 0 15px 15px;
+}
+.sec_l1 ul.basic_ li{
+	margin:0 0 5px 15px;
+	list-style: square outside;
+	line-height:1.5;
+}
+.sec_l1 figcaption{
+	margin-bottom:10px;
+	font-weight:bold;
+}
+.sec_l1 figcaption span{
+	padding:4px;
+	background-color:#666;
+	color:#FFF;
+}
+.sec_l1 figure{
+	margin-bottom:15px;
+	padding:14px;
+	border: 1px solid #ccc;
+	text-align:center;
+}
+
+.sec_l1 table.basic_{
+	width:100%;
+	border-top: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+}
+.sec_l1 table.basic_ th{
+	border-bottom: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	padding:10px;
+}
+.sec_l1 table.basic_ td{
+	border-bottom: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+	padding:10px;
+}
+.sec_l1 table.basic_ thead th{
+	background:#aaa;
+	font-weight:bold;
+}
+.sec_l1 table.basic_ thead td{
+}
+.sec_l1 table.basic_ tbody th{
+	background:#ddd;
+	font-weight:bold;
+}
+.sec_l1 table.basic_ tbody td{
+}
+.sec_l1 .note_ {
+	margin:0 0 10px 15px;
+}
+.sec_l1 .note_ .n_li {
+	color: #666666;
+	font-size: 11px;
+	margin: 5px 0 0 1em;
+	text-indent: -1em;
+}
+.sec_l1 .link_text {
+	margin: 10px;
+	line-height:1.5;
+}
+.sec_l1 .link_text a {
+	background: url("../img/link_text_a_bg.gif") no-repeat scroll 0 0 transparent;
+	padding: 0 0 0 20px;
+}
+.sec_l1 .link_text a:hover {
+}
+.sec_l1 .marker{
+	background:#ddd;
+	padding:2px;
+}
+
+.sec_l2{
+	margin-bottom:30px;
+}
+
+
+
+div.com-title1 {
+	background: url("/img/bcg_h1_720.gif") no-repeat scroll 0 0 transparent;
+	height: 36px;
+	margin: 0 0 20px 0;
+	padding: 0;
+	width: 720px;
+}
+div.com-title1 h1 {
+	color: #333333;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 36px;	
+	padding: 0;
+	text-align: left;
+	text-indent: 15px;
+}
+div.com-title2 {
+	background:#ececec url("../img/bcg_h2.gif") no-repeat scroll 10px 13px;
+	margin:0 0 10px 0;
+	padding: 10px 10px 10px 32px;
+}
+div.com-title2 h1 {
+	font-size: 14px;
+	font-weight: bold;
+
+}
+
+.wcolor{
+	color: #CC0000;
+}
+.tems-spacer{
+	padding-left:10px;
+	padding-left:10px;
+}
+/*----------
+common titles
+----------*/
+
+.tit-main{
+	color:#333333;
+	margin-bottom:15px;
+	padding-top:5px;
+	border-left:#666666 9px solid;
+	padding-left:10px;
+	padding-bottom:6px;
+	padding-right:4px;
+	border-bottom:#666666 2px solid;
+	font-size:14px;
+	font-weight:bold;
+}
+
+.tit_darkgray{
+	min-height:22px;
+	background-color:#8e8e8e;
+	margin-bottom: 15px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 4px;
+	padding-right:4px;
+	background-image:url(/st/3/ja/pc/bus/sys/img/titgray_bkg.gif);
+	background-position:top left;
+	background-repeat:repeat-x;
+}
+.tit_darkgray span {
+	font-size: 14px;
+	line-height: 22px;
+	font-weight: bold;
+	color: #FFF;
+	padding-left: 6px;
+	border-left-width: 6px;
+	border-left-style: solid;
+	border-left-color: #FFF;
+	display:block;
+}
+.tit_lightgray {border-bottom: 2px solid #CCCCCC;
+	font-size: 14px;
+	line-height: 1.5em;
+	margin-bottom: 15px;
+	padding-bottom: 5px;
+	padding-top: 0;
+}
+.tit_lightgray span {border-left: 6px solid #7b7b7b;
+	font-weight: bold;
+	min-height: 18px;
+	padding-left: 8px;
+	padding-top: 2px;
+	padding-bottom: 3px;
+	margin-left: 4px;
+	display:block;
+}
+/*----------
+detailed
+----------*/
+
+/*.bus_changes*/
+.bus_changes .sec_l1 table.basic_ th{
+	text-align:center;
+}
+.bus_changes .sec_l1 table.basic_ td{
+	text-align:center;
+}
+.bus_changes .sec_l1 table.basic_ thead th{
+	background:#FFF;
+}
+.bus_changes .sec_l1 table.basic_ tbody .top_ th{
+	border-top: 5px solid #ccc;
+	background:#bbb;
+}
+.bus_changes .sec_l1 table.basic_ .ico-pen{
+	float:left;
+	margin-left:50px;
+}
+.bus_changes .sec_l1 table.basic_ .ico-pen-red{
+	float:left;
+	margin-left:40px;
+}
+/*----------
+parts pagetop
+----------*/
+.parts-pagetop {
+	clear: both;
+	font-size: 10px;
+	height: 22px;
+	margin: 15px 0 10px auto;
+	padding: 0;
+	text-align: right;
+}
+.parts-pagetop a {
+	background: url("../img/back2top.gif") no-repeat scroll left 4px transparent;
+	padding-left: 12px;
+}
+
+
+/*----------
+error_page
+----------*/
+.er {
+	width:860px;
+	margin:60px auto 100px;
+	text-align:center;
+	border: 4px solid #ffe5e5;
+	padding:20px 6px 30px;
+	font-size:14px;
+	line-height:24px;
+}
+.er-tx {
+	font-size:18px;
+	font-weight:bold;
+	color:#CC0000;
+	background:url(/st/13/ja/pc/bus/sys/img/ico/ico_errorbox.png) no-repeat left;
+	height:34px;
+	width:300px;
+	text-align:left;
+	margin:0 auto 10px;
+	padding-left:40px;
+	line-height:34px;
+}
+.er-link {
+	font-weight:bold;
+	margin:20px 0 0;
+}
+
+
+
+
