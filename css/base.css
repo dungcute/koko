@@ -122,7 +122,7 @@
 /* ↑調整↑ */
 
 #header > div {
-	background:url(/st/13/ja/pc/include/img/base/bg_header.png) no-repeat 400px bottom;
+	background:url(/st/13/en/pc/include/img/base/bg_header.png) no-repeat 400px bottom;
 	margin:0 auto;
 	max-width:1040px;
 	height:100px;
@@ -159,7 +159,7 @@
 }
 
 #header > div nav ul {
-	background:url(/st/13/ja/pc/include/img/base/bg_chk_blue.png);
+	background:url(/st/13/en/pc/include/img/base/bg_chk_blue.png);
 	font-size:0.85em;
 	display:none;
 	position:absolute;
@@ -194,7 +194,7 @@
 }
 
 #header > div div p a {
-	background:url(/st/13/ja/pc/include/img/base/icon_mypage_pc.svg) no-repeat 0 13px;
+	background:url(/st/13/en/pc/include/img/base/icon_mypage_pc.svg) no-repeat 0 13px;
 	display:block;
 	padding:15px 0 10px 15px;
 	text-decoration:none;
@@ -209,7 +209,7 @@
 }
 
 #header section > div {
-	background:url(/st/13/ja/pc/include/img/base/bg_chk_blue.png);
+	background:url(/st/13/en/pc/include/img/base/bg_chk_blue.png);
 }
 
 #header #header_menu_main {
@@ -240,7 +240,7 @@
 
 #header #header_menu_main li a {
 	align-items:center;
-	background-image:url(/st/13/ja/pc/include/img/base/nav_home.svg);
+	background-image:url(/st/13/en/pc/include/img/base/nav_home.svg);
 	background-position:center 3px;
 	background-repeat:no-repeat;
 	box-sizing:border-box;
@@ -252,23 +252,23 @@
 }
 
 #header #header_menu_main li:nth-child(2) a {
-	background-image:url(/st/13/ja/pc/include/img/base/nav_timetable.svg);
+	background-image:url(/st/13/en/pc/include/img/base/nav_timetable.svg);
 }
 
 #header #header_menu_main li:nth-child(3) a {
-	background-image:url(/st/13/ja/pc/include/img/base/nav_campaign.svg);
+	background-image:url(/st/13/en/pc/include/img/base/nav_campaign.svg);
 }
 
 #header #header_menu_main li:nth-child(4) a {
-	background-image:url(/st/13/ja/pc/include/img/base/nav_seat.svg);
+	background-image:url(/st/13/en/pc/include/img/base/nav_seat.svg);
 }
 
 #header #header_menu_main li:nth-child(5) a {
-	background-image:url(/st/13/ja/pc/include/img/base/nav_park.svg);
+	background-image:url(/st/13/en/pc/include/img/base/nav_park.svg);
 }
 
 #header #header_menu_main li:nth-child(6) a {
-	background-image:url(/st/13/ja/pc/include/img/base/nav_guide.svg);
+	background-image:url(/st/13/en/pc/include/img/base/nav_guide.svg);
 }
 
 #header #header_menu_main li a:hover {
@@ -340,7 +340,7 @@
 }
 
 #header #header_menu_sub nav a {
-	background:url(/st/13/ja/pc/include/img/base/arr_01.svg) no-repeat 0 center;
+	background:url(/st/13/en/pc/include/img/base/arr_01.svg) no-repeat 0 center;
 	display:block;
 	padding:5px 5px 5px 10px;
 	text-decoration:none;
@@ -385,7 +385,7 @@
 	}
 
 	#header > div nav h2 {
-		background:#003E97 url(/st/13/ja/pc/include/img/base/icon_language_sp.svg) no-repeat 20px 8px;
+		background:#003E97 url(/st/13/en/pc/include/img/base/icon_language_sp.svg) no-repeat 20px 8px;
 		background-size:17px auto;
 		border-right:none;
 		box-sizing:border-box;
@@ -416,7 +416,7 @@
 	}
 
 	#header > div div p a {
-		background:#003E97 url(/st/13/ja/pc/include/img/base/icon_mypage_sp.svg) no-repeat 20px 8px;
+		background:#003E97 url(/st/13/en/pc/include/img/base/icon_mypage_sp.svg) no-repeat 20px 8px;
 		border-right:rgba(255,255,255,0.2) solid 1px;
 		box-sizing:border-box;
 		color:#fff;
@@ -426,7 +426,7 @@
 	}
 
 	#header section h2 {
-		background:#003E97 url(/st/13/ja/pc/include/img/base/icon_menu_open.svg) no-repeat center center;
+		background:#003E97 url(/st/13/en/pc/include/img/base/icon_menu_open.svg) no-repeat center center;
 		border-radius:5px;
 		display:block;
 		height:36px;
@@ -437,7 +437,7 @@
 	}
 
 	#header section h2.active {
-		background:#003E97 url(/st/13/ja/pc/include/img/base/icon_menu_close.svg) no-repeat center center;
+		background:#003E97 url(/st/13/en/pc/include/img/base/icon_menu_close.svg) no-repeat center center;
 		background-size:16px auto;
 	}
 
@@ -513,7 +513,7 @@
 	}
 
 	#header #header_menu_sub nav a {
-		background:url(/st/13/ja/pc/include/img/base/arr_02.svg) no-repeat 0 center;
+		background:url(/st/13/en/pc/include/img/base/arr_02.svg) no-repeat 0 center;
 		color:#fff;
 		padding:5px 5px 5px 10px;
 	}
@@ -584,7 +584,7 @@
 }
 
 #footer nav li a {
-	background:url(/st/13/ja/pc/include/img/base/arr_02.svg) no-repeat left center;
+	background:url(/st/13/en/pc/include/img/base/arr_02.svg) no-repeat left center;
 	color:#fff;
 	padding:0 0 0 8px;
 	text-decoration:none;
@@ -693,14 +693,14 @@
 	}
 
 	#footer nav h2 {
-		background:url(/st/13/ja/pc/include/img/base/icon_ft_menu_open.svg) no-repeat right 20px center;
+		background:url(/st/13/en/pc/include/img/base/icon_ft_menu_open.svg) no-repeat right 20px center;
 		border-bottom:rgba(255,255,255,0.2) solid 1px;
 		font-size:0.9em;
 		padding:10px 0 10px 20px;
 	}
 
 	#footer nav h2.active {
-		background:url(/st/13/ja/pc/include/img/base/icon_ft_menu_close.svg) no-repeat right 20px center;
+		background:url(/st/13/en/pc/include/img/base/icon_ft_menu_close.svg) no-repeat right 20px center;
 	}
 
 	#footer nav ul {
