@@ -225,7 +225,7 @@ $(function() {
 
 	$(":input[name='of']").click(switchOfuku).filter(':checked').triggerHandler('click');
 
-	// 片道か往復かで表示項目を切り替え
+	// one wayか往復かで表示項目を切り替え
 	function switchOfuku() {
 		if ($(this).val() == '1') {
 			$ofDisp.show();
