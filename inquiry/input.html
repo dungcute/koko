@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <!-- InstanceBeginEditable name="doctitle" -->
-    <title>コトバスエクスプレス &gt; Contact Us</title>
+    <title>Kotobus Express & Contact Us</title>
     <!-- InstanceEndEditable -->
     <link rel="icon" href="../images/base/icon_favicon.ico">
     <link rel="stylesheet" href="../scripts/css/base.css">
@@ -84,8 +84,8 @@
     </header>
     <div id="contents">
         <section id="inquiry_form" class="section">
-            <h3 class="title_x">Contact Usフォーム</h3>
-            <p>全て必須項目です。ご入力ください。</p>
+            <h3 class="title_x">Contact Us form</h3>
+            <p>Member information input.(All fields are required.)</p>
             <form action="formmail.php" method="post" name="frm1" id="frm1">
                 <input type="hidden" name="mode" id="mode" value="chk">
                 <input type="hidden" name="error" id="error" value="">
@@ -93,36 +93,36 @@
                 <table id="inquiry_form_input">
                     <tbody>
                         <tr class="name">
-                            <th>氏名</th>
-                            <td><p><input name="name" type="text"><br>（全角）</p></td>
+                            <th>Full name</th>
+                            <td><p><input name="name" type="text"><br>(Full-width)</p></td>
                         </tr>
                         <tr class="kana">
-                            <th>氏名フリガナ</th>
-                            <td><p><input name="kana" type="text"><br>（全角カナ）</p></td>
+                            <th>Name Furigana</th>
+                            <td><p><input name="kana" type="text"><br>(full-width Kana)</p></td>
                         </tr>
                         <tr class="zip1 zip2">
-                            <th>郵便番号</th>
-                            <td><p><input name="zip1" type="text"> － <input name="zip2" type="text"><br>（半角数字）</p></td>
+                            <th>Postal code</th>
+                            <td><p><input name="zip1" type="text"> － <input name="zip2" type="text"><br>(Half-width numbers)</p></td>
                         </tr>
                         <tr class="add">
-                            <th>住所</th>
+                            <th>Address</th>
                             <td><p><input name="add" type="text"></p></td>
                         </tr>
                         <tr class="tel1 tel2 tel3">
-                            <th>電話番号</th>
-                            <td><p><input name="tel1" type="text"> － <input name="tel2" type="text"> － <input name="tel3" type="text"><br>（半角数字）</p></td>
+                            <th>Phone number</th>
+                            <td><p><input name="tel1" type="text"> － <input name="tel2" type="text"> － <input name="tel3" type="text"><br>(Half-width numbers)</p></td>
                         </tr>
                         <tr class="emailadd">
-                            <th>メールアドレス</th>
-                            <td><p><input name="emailadd" type="text"><br>（半角英数字・記号）</p></td>
+                            <th>Email address</th>
+                            <td><p><input name="emailadd" type="text"><br>(Alphanumeric characters and symbols)</p></td>
                         </tr>
                         <tr class="memo">
-                            <th>Contact Us内容備考</th>
+                            <th>Your question</th>
                             <td><p><textarea name="memo" cols="45" rows="5"></textarea></p></td>
                         </tr>
                     </tbody>
                 </table>
-                <p class="button"><button onClick="javascript: check_input(); return false;" onKeyPress="javascript: check_input(); return false;" class="next">確認画面へ</button></p>
+                <p class="button"><button onClick="javascript: check_input(); return false;" onKeyPress="javascript: check_input(); return false;" class="next">Next</button></p>
             </form>
         </section>
     </div>
