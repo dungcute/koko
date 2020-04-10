@@ -1908,31 +1908,31 @@ img {
 	}
 
 	#seat table td:nth-child(1):before {
-		content:"リクライニング最大斜度";
+		content:"Maximum recline angle";
 	}
 
 	#seat table td:nth-child(2):before {
-		content:"シート幅";
+		content:"Seat width";
 	}
 
 	#seat table td:nth-child(3):before {
-		content:"シート間隔";
+		content:"Seat spacing";
 	}
 
 	#seat table td:nth-child(4):before {
-		content:"レッグレスト";
+		content:"Leg Rest";
 	}
 
 	#seat table td:nth-child(5):before {
-		content:"フットレスト";
+		content:"Foot Rest";
 	}
 
 	#seat table td:nth-child(6):before {
-		content:"ヘッドレスト";
+		content:"Headrest";
 	}
 
 	#seat table td:last-child:before {
-		content:"トイレ";
+		content:"Toilet";
 	}
 
 }

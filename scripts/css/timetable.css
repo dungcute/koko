@@ -211,7 +211,7 @@
 
 	.route_list .price p:before {
 		color:#666;
-		content:"大人料金　";
+		content:"Adult fare　";
 		font-size:0.8em;
 	}
 
